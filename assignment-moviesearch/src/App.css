@@ -1,0 +1,89 @@
+.App {
+  text-align: center;
+  background-color: #f3f3f3;
+  min-height: 100vh;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  color: #333; /* Updated text color for better contrast */
+}
+
+.App-header {
+  background-color: #333;
+  padding: 20px;
+  border-radius: 10px;
+  color: white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.search-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+input {
+  padding: 10px;
+  margin: 10px 0;
+  font-size: 1rem;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  width: 80%;
+  max-width: 400px;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 1rem;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  background-color: #ffb400;
+  color: white;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #ff9500;
+}
+
+.movie {
+  display: flex;
+  margin-top: 20px;
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.movie-poster {
+  width: 200px;
+  height: auto;
+  border-radius: 10px;
+  margin-right: 20px;
+}
+
+.movie-details {
+  text-align: left;
+  color: #333; /* Updated text color for better contrast */
+}
+
+.movie-details h2 {
+  margin-top: 0;
+  color: #000; /* Updated text color for better contrast */
+}
+
+.movie-details p {
+  margin: 5px 0;
+  color: #444; /* Updated text color for better contrast */
+}
+
+.error {
+  color: red;
+  font-size: 1.2rem;
+  margin-top: 20px;
+}
